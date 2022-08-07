@@ -15,7 +15,7 @@ module.exports = {
             .setCustomId('IdBut1')
             .setLabel('Invito Bot')
             .setStyle('LINK')
-            .setEmoji(':envelope_with_arrow:')
+            .setEmoji('📩')
             .setURL("https://discord.com/api/oauth2/authorize?client_id=1004779665749188629&permissions=8&scope=bot")
         let row = new Discord.MessageActionRow()
             .addComponents(button)
