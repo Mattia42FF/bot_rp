@@ -3,9 +3,10 @@ const Discord = require("discord.js")
 module.exports = {
     name: "invite",
     description: "Invia il link d invito del bot",
-    execute(message) {
+    execute(message, args) {
 
-        let row = new MessageActionRow()
+        let row = new Discord.MessageActionRow()
+
         .addComponents(
             new MessageButton()
                 .setCustomId('IdBut1')
