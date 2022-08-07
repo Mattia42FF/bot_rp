@@ -19,7 +19,7 @@ module.exports = {
                 .setTitle("__**Link Invito Bot**__")
                 .setColor("RANDOM")
                 .setDescription(`*${message.author.toString()} Clicca il pulsante qui sotto per invitare il Bot!*`)
-                .setFooter({text: "Invito al Bot"})
+                .setFooter({text: "Invito al Bot!"})
                 .setTimestamp()
 
             message.channel.send({ embeds: [embed], components: [row], ephemeral: true })
