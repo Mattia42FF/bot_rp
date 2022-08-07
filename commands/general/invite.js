@@ -3,7 +3,7 @@ const Discord = require("discord.js")
 module.exports = {
     name: "invite",
     description: "Invia il link d invito del bot",
-    execute(message, args) {
+    execute(message) {
 
         let row = new MessageActionRow()
         .addComponents(
@@ -18,7 +18,7 @@ module.exports = {
             var embed = new Discord.MessageEmbed()    
                 .setTitle("__**Link Invito Bot**__")
                 .setColor("RANDOM")
-                .setDescription(`*${message.author.toString()} Clicca il pulsante qui sotto per inviare il Bot!*`)
+                .setDescription(`*${message.author.toString()} Clicca il pulsante qui sotto per invitare il Bot!*`)
                 .setFooter({text: "Invito al Bot"})
                 .setTimestamp()
 
