@@ -3,7 +3,7 @@ const client = new Discord.Client(
     { intents: ["GUILDS", "GUILD_MEMBERS", "GUILD_MESSAGES", "GUILD_INTEGRATIONS"] }
 )
 
-client.login("MTAwNDc3OTY2NTc0OTE4ODYyOQ.Gaeume.ODcOxaSRJKsXh8Ru1nlsZx-gXZTuMxlesBoMvw")
+client.login(process.env.token)
 
 client.on("ready", () => {
      console.log("Bot Avviato!")
