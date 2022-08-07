@@ -5,6 +5,8 @@ module.exports = {
     description: "Invia il link d invito del bot",
     execute(message) {
 
+        message.delete()
+         
         let embed = new Discord.MessageEmbed()    
             .setTitle("__**Link Invito Bot**__")
             .setColor("RANDOM")
