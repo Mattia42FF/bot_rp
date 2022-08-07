@@ -3,8 +3,8 @@ const Discord = require("discord.js")
 module.exports = {
     name: "invite",
     description: "Invia il link d invito del bot",
-    execute(message, args) {
-        
+    execute(message) {
+
         let embed = new Discord.MessageEmbed()    
             .setTitle("__**Link Invito Bot**__")
             .setColor("RANDOM")
