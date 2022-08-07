@@ -13,7 +13,6 @@ module.exports = {
             .setTimestamp()
 
         let button = new Discord.MessageButton()
-            .setCustomId('IdBut1')
             .setLabel('Invito Bot')
             .setStyle('LINK')
             .setEmoji('📩')
