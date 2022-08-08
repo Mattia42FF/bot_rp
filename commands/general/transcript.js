@@ -42,7 +42,7 @@ module.exports = {
     }
 }
 
-const getAllMessages = async (channel) => {
+const getAllMessages = (channel) => {
     let allMessages = []
     let lastMessage
 
