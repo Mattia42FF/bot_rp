@@ -61,6 +61,8 @@ client.on("interactionCreate", interaction => {
                 .addField('`a!clear`', '**Per cancellare dei messaggi**')
                 .addField('`a!rpon`', '**Per mandare Online il Server**')
                 .addField('`a!rpoff`', '**Per mandare Offline il Server**')
+                .addField('`a!wlon`', '**Aprire le Whitelist*')
+                .addField('`a!wloff`', '**Chiudere le Whitelist**')
                 .setFooter({text: "Staff"})
                 .setTimestamp()
 
