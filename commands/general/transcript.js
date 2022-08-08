@@ -50,7 +50,7 @@ const getAllMessages = async (channel) => {
         const options = { limit: 100 }
         if (lastMessage) options.before = lastMessage
 
-        let messages = channel.messages.fetch(options)
+        let messages = await channel.messages.fetch(options)
 
         allMessages = allMessages.concat(Array.from(messages.values()))
 
