@@ -73,7 +73,6 @@ client.on("interactionCreate", interaction => {
                 .setTitle("General Commands")
                 .setColor("RED")
                 .addField('`a!annuncio`', '**Per mandare un Annuncio**')
-                .addField('`a!invite`', '**Invia il Link del Bot**')
                 .addField('`a!help`', '**Per vedere i Comandi del Bot**')
                 .addField('`a!poll`', '**Per fare un sondaggio**')
                 .addField('`a!say`', '**Per far mandare un messaggio al Bot**')

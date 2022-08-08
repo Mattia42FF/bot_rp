@@ -18,7 +18,7 @@ module.exports = {
            .setTitle("__**Annuncio!**__")
            .setColor("RANDOM")
            .setDescription(`***${message.author.toString()} Ha Mandato Questo Annuncio:*** **\n${testo}**`)
-           .setThumbnail("https://cdn.discordapp.com/attachments/935843412056350730/944644110692802600/1f4e3.png")
+           .setThumbnail("https://cdn.discordapp.com/icons/998926402281803809/f7b7542552b66584898b3903de8c6467.png?size=128")
            .setImage("https://cdn.discordapp.com/attachments/935843412056350730/939567617847492628/How-to-Announce-your-Engagement.png")
            .setFooter("Annuncio Pubblicato")
            .setTimestamp()

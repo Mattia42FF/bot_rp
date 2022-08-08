@@ -11,7 +11,7 @@ module.exports = {
             .setTitle("**__Whitelist Chiuse!__**")
             .setColor("RED")
             .setDescription("**Avvisiamo che le Whitelist sono chiuse, presto riapriranno!**")
-            .setThumbnail("https://cdn.discordapp.com/emojis/881451528345493535.gif?size=96&quality=lossless")
+            .setThumbnail("https://cdn.discordapp.com/icons/998926402281803809/f7b7542552b66584898b3903de8c6467.png?size=128")
             .setFooter({text: "Whitelist"})
             .setTimestamp()
 
