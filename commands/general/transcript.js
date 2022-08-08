@@ -42,7 +42,7 @@ module.exports = {
     }
 }
 
-const getAllMessages = (channel) => {
+const getAllMessages = async (channel) => {
     let allMessages = []
     let lastMessage
 
@@ -50,7 +50,7 @@ const getAllMessages = (channel) => {
         const options = { limit: 100 }
         if (lastMessage) options.before = lastMessage
 
-        let messages = await channel.messages.fetch(options)
+        let messages = channel.messages.fetch(options)
 
         allMessages = allMessages.concat(Array.from(messages.values()))
 
