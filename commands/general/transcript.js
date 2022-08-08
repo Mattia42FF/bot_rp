@@ -3,7 +3,7 @@ const Discord = require("discord.js")
 module.exports = {
     name: "transcript",
     description: "Transcrizione dei messaggi",
-    execute(async, message, args) {
+    async execute(async, message, args) {
 
         let chatLog = `-- CHAT LOG #${message.channel.name} --\n\n`
 
