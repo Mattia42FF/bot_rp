@@ -7,6 +7,7 @@ client.login(process.env.token)
 
 client.on("ready", () => {
      console.log("Bot Avviato!")
+     client.channels.cache.get("1006989781189787689").send(err.toString())
 })
 
 const fs = require("fs");
@@ -95,3 +96,6 @@ client.on("interactionCreate", interaction => {
         } break
       }
 }})
+
+process.on("uncaughtException", err => {console.log(err)})
+process.on("unhandledRejection", err => {console.log(err)})
