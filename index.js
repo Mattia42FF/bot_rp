@@ -9,6 +9,12 @@ client.on("ready", () => {
      console.log("Bot Avviato!")
 })
 
+client.on('ready', () => {
+    client.user.setActivity('a!help', { type: 'WATCHING' }); 
+    
+    client.user.setStatus('idle')
+})
+
 const fs = require("fs");
 // const { CLIENT_RENEG_LIMIT } = require("tls")
 
@@ -26,8 +32,7 @@ for (const folder of commandsFolder) {
     for (const file of commandsFiles) {
         const commands = require(`./commands/${folder}/${file}`);
         client.commands.set(commands.name, commands);
-    }
-}
+    }}
 
 client.on("messageCreate", message => {
     const prefix = "a!";
@@ -40,6 +45,11 @@ client.on("messageCreate", message => {
     if(!client.commands.has(command)) return
 
     client.commands.get(command).execute(message, args);
+})
+
+// TAG BOT + MESSAGGIO
+client.on("messageCreate", message => {
+    if(message.content == "<@1004779665749188629>" || message.content == "<@!1004779665749188629>") message.channel.send(`*${message.author.toString()}, il mio prefisso è __a!__*`)
 })
 
 // Codice che si collega al help.js
