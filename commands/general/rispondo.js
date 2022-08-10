@@ -16,7 +16,7 @@ module.exports = {
         var embed = new Discord.MessageEmbed()
             .setTitle("__**Risposta Post!**__")
             .setColor("RANDOM")
-            .setDescription(`**${message.author.toString()} Ha Appena Risposto al Posto: ${testo}.**`)
+            .setDescription(`**${message.author.toString()} Ha Appena Risposto al Post: ${testo}.**`)
             .setFooter({ text: "Risposta" })
             .setTimestamp()
 
