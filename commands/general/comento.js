@@ -17,7 +17,7 @@ module.exports = {
             .setTitle("__**Nuovo Commento!**__")
             .setColor("RANDOM")
             .setImage("https://cdn.discordapp.com/attachments/1005194612102672446/1006978320048590888/unknown.png")
-            .setDescription(`**${message.author.toStrig()} Ha Appena Commentato al Post: ${testo}.**`)
+            .setDescription(`**${message.author.toString()} Ha Appena Commentato al Post: ${testo}.**`)
             .setFooter({ text: "Nuovo Commento" })
             .setTimestamp()
 
