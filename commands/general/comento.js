@@ -14,7 +14,7 @@ module.exports = {
         message.delete()
 
         var embed = new Discord.MessageEmbed()
-            .setTitle("__**Nuovo Commento!**__")
+            .setTitle("<:chat:1007029192489177258> __**Nuovo Commento!**__ <:chat:1007029192489177258> ")
             .setColor("RANDOM")
             .setThumbnail("https://cdn.discordapp.com/icons/998926402281803809/f7b7542552b66584898b3903de8c6467.png?size=128")
             .setDescription(`**${message.author.toString()} Ha Appena Commentato al Post: ${testo}.**`)

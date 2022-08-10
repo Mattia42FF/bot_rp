@@ -8,7 +8,7 @@ module.exports = {
         message.delete()
 
         let embed = new Discord.MessageEmbed()
-            .setTitle("__Aiuto Comandi__")
+            .setTitle("<:Libro:1007028780419792917> __Aiuto Comandi__<:Libro:1007028780419792917> ")
             .setColor("RANDOM")
             .setThumbnail("https://cdn.discordapp.com/icons/998926402281803809/f7b7542552b66584898b3903de8c6467.png?size=128")
             .setDescription(`**${message.author.toString()} Seleziona la pagina con il menu qua sotto, per vedere tutte le sezioni disponibili ⤵**`)
