@@ -8,7 +8,7 @@ module.exports = {
         message.delete()
 
     var embed = new Discord.MessageEmbed()
-        .setTitle("__**Ticket Preso In Carica!**__")
+        .setTitle("__**🎟️ Ticket Preso In Carica! 🎟️**__")
         .setColor("RANDOM")
         .setThumbnail("https://cdn.discordapp.com/icons/998926402281803809/f7b7542552b66584898b3903de8c6467.png?size=128")
         .setDescription(`*Il Ticket è stato preso in carica da ${message.author.toString()}!*`)
