@@ -15,7 +15,7 @@ module.exports = {
         }
 
         var embed = new Discord.MessageEmbed()
-           .setTitle("<:Staff:1005798250852397056>__**Annuncio!**__<:Staff:1005798250852397056>")
+           .setTitle("<:Announcement:979766378124959774> __**Annuncio!**__ <:Announcement:979766378124959774>")
            .setColor("RANDOM")
            .setDescription(`***${message.author.toString()} Ha Mandato Questo Annuncio:*** **\n${testo}**`)
            .setThumbnail("https://cdn.discordapp.com/icons/998926402281803809/f7b7542552b66584898b3903de8c6467.png?size=128")
