@@ -10,9 +10,9 @@ client.on("ready", () => {
 })
 
 client.on('ready', () => {
-    client.user.setActivity('Milano RP', { type: 'LISTENING' }); 
+    client.user.setActivity('Milano RP', { type: 'WATCHING' }); 
     
-    client.user.setStatus('idle')
+    client.user.setStatus('online')
 })
 
 const fs = require("fs");
