@@ -1,8 +1,8 @@
 const Discord = require("discord.js")
 
 module.exports = {
-    name: "commento",
-    description: "Per commentare un Post",
+    name: "rispondo",
+    description: "Per rispondere a un Post",
     execute(message, args) {
         
         var testo;
@@ -14,14 +14,13 @@ module.exports = {
         message.delete()
 
         var embed = new Discord.MessageEmbed()
-            .setTitle("__**Nuovo Commento!**__")
+            .setTitle("__**Risposta Post!**__")
             .setColor("RANDOM")
-            .setImage("https://cdn.discordapp.com/attachments/1005194612102672446/1006978320048590888/unknown.png")
-            .setDescription(`**${message.author.toString()} Ha Appena Commentato al Post: ${testo}.**`)
-            .setFooter({ text: "Nuovo Commento" })
+            .setDescription(`**${message.author.toString()} Ha Appena Risposto al Posto: ${testo}.**`)
+            .setFooter({ text: "Risposta" })
             .setTimestamp()
 
             message.channel.send({ embeds: [embed] })
 
     }
-}                
+}  
