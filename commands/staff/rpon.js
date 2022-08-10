@@ -19,7 +19,7 @@ module.exports = {
             .setColor("BLUE")
             .setThumbnail("https://cdn.discordapp.com/emojis/891315683097473064.webp?size=96&quality=lossless")
             .setDescription(`**__L'RP è appena iniziato__, per entrare in Sessione unitevi da: *${testo}*. Buon RP!**`)
-            .setFooter({text: "RolePlay Online"})
+            .setFooter({text: "Milano RP Bot" })
             .setTimestamp()
 
             message.channel.send({ embeds: [embed] })

@@ -12,7 +12,7 @@ module.exports = {
             .setColor("GREEN")
             .setThumbnail("https://cdn.discordapp.com/icons/998926402281803809/f7b7542552b66584898b3903de8c6467.png?size=128")
             .setDescription(`**Hey ${message.author.toString()}, hai appena richiesta supporto allo Staff del Server, __uno Staff arriverà qui a breve. Nel frattempo è pregato di scrivere il motivo della richiesta di Supporto__.**`)
-            .setFooter({text: "Richiesta Supporto"})
+            .setFooter({text: "Milano RP Bot"})
             .setTimestamp()
 
             message.channel.send({ embeds: [embed] })

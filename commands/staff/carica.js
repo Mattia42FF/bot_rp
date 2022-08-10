@@ -12,7 +12,7 @@ module.exports = {
         .setColor("RANDOM")
         .setThumbnail("https://cdn.discordapp.com/icons/998926402281803809/f7b7542552b66584898b3903de8c6467.png?size=128")
         .setDescription(`*Il Ticket è stato preso in carica da ${message.author.toString()}!*`)
-        .setFooter({text: "Ticket Incarito"})
+        .setFooter({text: "Milano RP Bot Ticket"})
         .setTimestamp()
         
         message.channel.send({ embeds: [embed] })

@@ -88,6 +88,8 @@ client.on("interactionCreate", interaction => {
                 .addField('`a!aiuto`', '**Per richiedere Assistenza allo Staff**')
                 .addField('`a!espu`', '**Per comunicare che un utente dovrà essere espulso dalla Sessione**')
                 .addField('`a!wl`', '**Per richiedere una Whitelist**')
+                .addField('`a!commento`', '**Per commentare un Post**')
+                .addField('`a!rispondo`', '**Per rispondere a un Post**')
                 .setFooter({text: "RP"})
                 .setTimestamp()
  

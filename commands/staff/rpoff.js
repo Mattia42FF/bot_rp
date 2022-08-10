@@ -12,7 +12,7 @@ module.exports = {
             .setColor("WHITE")
             .setThumbnail("https://cdn.discordapp.com/emojis/891315682858393651.webp?size=96&quality=lossless")
             .setDescription(`**__L'RP è appena terminato__, vi ricordiamo di richiedere il vostro Stipendio Giornaliero.**`)
-            .setFooter({text: "RolePlay Offline"})
+            .setFooter({text: "Milano RP Bot" })
             .setTimestamp()
 
             message.channel.send({ embeds: [embed] })

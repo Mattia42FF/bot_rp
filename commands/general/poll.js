@@ -23,7 +23,7 @@ module.exports = {
                 .setTitle("__Sondaggio!__")
                 .setThumbnail("https://cdn.discordapp.com/icons/998926402281803809/f7b7542552b66584898b3903de8c6467.png?size=128")
                 .setDescription(`**${message.author.toString()} Ha Fatto Questo Sondaggio:\n${testo}**`)
-                .setFooter({text: "Sondaggio Server!"})
+                .setFooter({text: "Milano RP Bot"})
                 .setTimestamp()
     
             message.channel.send({embeds: [embed]})
