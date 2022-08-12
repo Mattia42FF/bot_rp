@@ -5,6 +5,12 @@ module.exports = {
     description: "Per cancellare dei messaggi",
     execute(message, args) {
 
+        {
+            if (!message.member.roles.cache.has("998988979724615700")) {
+                return message.channel.send("**Non puoi eseguire questo comando perchè non hai il ruolo!**");
+            } 
+
+
         message.delete()
 
         {
@@ -26,4 +32,4 @@ module.exports = {
                 setTimeout(() => msg.delete(), 10000)
             })
         }
-    }}
+    }}}

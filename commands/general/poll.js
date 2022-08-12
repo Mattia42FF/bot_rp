@@ -5,6 +5,11 @@ module.exports = {
     description: "Fare un sondaggio",
     execute(message, args) {
 
+        {
+            if (!message.member.roles.cache.has("999277695991042148")) {
+                return message.channel.send("**Non puoi eseguire questo comando perchè non hai il ruolo!**");
+            } 
+
             var args = message.content.split(/\s+/);
             var testo;
             testo = args.slice(1).join(" ");
@@ -23,7 +28,7 @@ module.exports = {
                 .setTitle("<:annunce:1007031335552036965> __Sondaggio!__ <:annunce:1007031335552036965>")
                 .setThumbnail("https://cdn.discordapp.com/icons/998926402281803809/f7b7542552b66584898b3903de8c6467.png?size=128")
                 .setDescription(`**${message.author.toString()} Ha Fatto Questo Sondaggio:\n${testo}**`)
-                .setFooter({text: "Milano RP Bot"})
+                .setFooter({text: "Project Italy RP"})
                 .setTimestamp()
     
             message.channel.send({embeds: [embed]})
@@ -32,4 +37,4 @@ module.exports = {
                 msg.react("❌")
               })
         }
-    }
+    }}

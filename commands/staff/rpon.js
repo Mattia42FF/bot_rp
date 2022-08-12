@@ -4,6 +4,11 @@ module.exports = {
     name: "rpon",
     description: "Per mandare Online l'RP",
     execute(message, args) {
+
+        {
+            if (!message.member.roles.cache.has("998988240088473742")) {
+                return message.channel.send("**Non puoi eseguire questo comando perchè non hai il ruolo!**");
+            } 
         
         message.delete()
 
@@ -19,9 +24,9 @@ module.exports = {
             .setColor("BLUE")
             .setThumbnail("https://cdn.discordapp.com/emojis/891315683097473064.webp?size=96&quality=lossless")
             .setDescription(`**__L'RP è appena iniziato__, per entrare in Sessione unitevi da: *${testo}*. Buon RP!**`)
-            .setFooter({text: "Milano RP Bot" })
+            .setFooter({text: "Project Italy RP" })
             .setTimestamp()
 
             message.channel.send({ embeds: [embed] })
 
-    }}  
+    }}}

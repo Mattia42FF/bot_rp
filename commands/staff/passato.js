@@ -4,6 +4,12 @@ module.exports = {
     name: "passato",
     description: "Per far passare l utente alla whitelist",
     execute(message, args) {
+
+        {
+            if (!message.member.roles.cache.has("998983373445922938")) {
+                return message.channel.send("**Non puoi eseguire questo comando perchè non hai il ruolo!**");
+            } 
+
         
         message.delete()
 
@@ -24,4 +30,4 @@ module.exports = {
             message.channel.send({ embeds: [embed] })
 
     }
-}                
+}}           

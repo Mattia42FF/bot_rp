@@ -5,6 +5,11 @@ module.exports = {
     description: "Per fare un annuncio",
     execute(message, args) {
 
+        {
+            if (!message.member.roles.cache.has("998988979724615700")) {
+                return message.channel.send("**Non puoi eseguire questo comando perchè non hai il ruolo!**");
+            } 
+
         message.delete()
 
         var args = message.content.split(/\s+/);
@@ -20,9 +25,9 @@ module.exports = {
            .setDescription(`***${message.author.toString()} Ha Mandato Questo Annuncio:*** **\n${testo}**`)
            .setThumbnail("https://cdn.discordapp.com/icons/998926402281803809/f7b7542552b66584898b3903de8c6467.png?size=128")
            .setImage("https://cdn.discordapp.com/attachments/935843412056350730/939567617847492628/How-to-Announce-your-Engagement.png")
-           .setFooter("Milano RP Bot")
+           .setFooter({ text: "Project Italy RP" })
            .setTimestamp()
 
            message.channel.send({ embeds: [embed] })
 
-    }}   
+    }}}
