@@ -16,7 +16,7 @@ module.exports = {
         var embed = new Discord.MessageEmbed()
             .setTitle("<:Accettato:1007556821625622668> __**Whitelist Passata**__ <:Accettato:1007556821625622668>")
             .setColor("RANDOM")
-            .addField('Whitelist Eseguita da:',  `${message.author.toString()}`, false)
+            .addField('Whitelist Eseguita da:',  `*${message.author.toString()}*`, false)
             .addField('Whitelist Superata:', `*${testo}*`, false)
             .setFooter({ text: "Project Italy RP" })
             .setTimestamp()
