@@ -4,7 +4,12 @@ module.exports = {
     name: "aiuto",
     description: "Per chiedere supporto allo Staff",
     execute(message, args) {
-        
+
+        {
+            if (!message.member.roles.cache.has("999277695991042148")) {
+                return message.channel.send("Non puoi eseguire questo comando perchè non hai il permesso");
+            } 
+
         message.delete()
 
         var embed = new Discord.MessageEmbed()
@@ -17,4 +22,4 @@ module.exports = {
 
             message.channel.send({ embeds: [embed] })
 
-    }}  
+    }}}
