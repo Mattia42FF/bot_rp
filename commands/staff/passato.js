@@ -17,7 +17,7 @@ module.exports = {
             .setTitle("<:Accettato:1007556821625622668> __**Whitelist Passata**__ <:Accettato:1007556821625622668>")
             .setColor("RANDOM")
             .addField('Whitelist Eseguita da:',  `*${message.author.toString()}*`, false)
-            .addField('Whitelist Superata:', `*${testo}*`, false)
+            .addField('Motivo', `*${testo}*`, false)
             .setFooter({ text: "Project Italy RP" })
             .setTimestamp()
 
