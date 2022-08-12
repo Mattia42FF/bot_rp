@@ -16,8 +16,8 @@ module.exports = {
         var embed = new Discord.MessageEmbed()
             .setTitle("<:Accettato:1007556821625622668> __**Whitelist Passata**__ <:Accettato:1007556821625622668>")
             .setColor("RANDOM")
-            .addFields("Whitelist Eseguita da:",  `${message.author.toString()}`, false)
-            .addFields("Whitelist:", `${testo}`, false)
+            .addField('Whitelist Eseguita da:',  `${message.author.toString()}`, false)
+            .addField('Whitelist:', `${testo}`, false)
             .setFooter({ text: "Whitelist Passata" })
             .setTimestamp()
 
