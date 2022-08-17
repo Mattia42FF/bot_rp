@@ -23,7 +23,7 @@ module.exports = {
             .setTitle("__**Azione RP Annullata**__")
             .setColor("RED")
             .setDescription(`**${message.author.toString()} Ha Annullato Questa/e Azione/i:** ***\n${testo}***`)
-            .setThumbnail("https://cdn.discordapp.com/icons/998926402281803809/f7b7542552b66584898b3903de8c6467.png?size=128")
+            .setThumbnail("https://cdn.discordapp.com/icons/939800651599331348/178d4c12185851ba950a5aa875faa793.png?size=128")
             .setFooter({text: "Project Italy RP" })
             .setTimestamp()
             

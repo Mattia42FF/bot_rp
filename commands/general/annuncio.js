@@ -23,7 +23,7 @@ module.exports = {
            .setTitle("<:Announcement:979766378124959774> __**Annuncio!**__ <:Announcement:979766378124959774>")
            .setColor("RANDOM")
            .setDescription(`***${message.author.toString()} Ha Mandato Questo Annuncio:*** **\n${testo}**`)
-           .setThumbnail("https://cdn.discordapp.com/icons/998926402281803809/f7b7542552b66584898b3903de8c6467.png?size=128")
+           .setThumbnail("https://cdn.discordapp.com/icons/939800651599331348/178d4c12185851ba950a5aa875faa793.png?size=128")
            .setImage("https://cdn.discordapp.com/attachments/935843412056350730/939567617847492628/How-to-Announce-your-Engagement.png")
            .setFooter({ text: "Project Italy RP" })
            .setTimestamp()
