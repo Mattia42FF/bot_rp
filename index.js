@@ -10,7 +10,7 @@ client.on("ready", () => {
 })
 
 client.on('ready', () => {
-    client.user.setActivity('Project Italy RP', { type: 'WATCHING' }); 
+    client.user.setActivity('Roma', { type: 'WATCHING' }); 
     
     client.user.setStatus('online')
 })
