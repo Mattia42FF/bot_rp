@@ -6,7 +6,7 @@ module.exports = {
     execute(message, args) {
 
         {
-            if (!message.member.roles.cache.has("998988979724615700")) {
+            if (!message.member.roles.cache.has("1010097091776880712")) {
                 return message.channel.send("**Non puoi eseguire questo comando perchè non hai il ruolo!**");
             } 
 

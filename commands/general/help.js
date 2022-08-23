@@ -12,7 +12,7 @@ module.exports = {
             .setColor("RANDOM")
             .setThumbnail("https://cdn.discordapp.com/icons/939800651599331348/178d4c12185851ba950a5aa875faa793.png?size=128")
             .setDescription(`**${message.author.toString()} Seleziona la pagina con il menu qua sotto, per vedere tutte le sezioni disponibili ⤵**`)
-            .setFooter({ text: "Milano RP Bot" })
+            .setFooter({text: "Italian Rome Full RP" })
             .setTimestamp()
 
         let select = new Discord.MessageSelectMenu()

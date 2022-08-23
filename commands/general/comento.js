@@ -6,7 +6,7 @@ module.exports = {
     execute(message, args) {
         
         {
-            if (!message.member.roles.cache.has("999277695991042148")) {
+            if (!message.member.roles.cache.has("1010114483890430012")) {
                 return message.channel.send("**Non puoi eseguire questo comando perchè non hai il ruolo!**");
             } 
 
@@ -23,7 +23,7 @@ module.exports = {
             .setColor("RANDOM")
             .setThumbnail("https://cdn.discordapp.com/icons/939800651599331348/178d4c12185851ba950a5aa875faa793.png?size=128")
             .setDescription(`**${message.author.toString()} Ha Appena Commentato al Post: ${testo}.**`)
-            .setFooter({ text: "Project Italy RP" })
+            .setFooter({text: "Italian Rome Full RP" })
             .setTimestamp()
 
             message.channel.send({ embeds: [embed] })

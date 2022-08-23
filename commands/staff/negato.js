@@ -6,7 +6,7 @@ module.exports = {
     execute(message, args) {
 
         {
-            if (!message.member.roles.cache.has("998983373445922938")) {
+            if (!message.member.roles.cache.has("1010092294722035803")) {
                 return message.channel.send("**Non puoi eseguire questo comando perchè non hai il ruolo!**");
             } 
 
@@ -24,7 +24,7 @@ module.exports = {
             .setColor("RANDOM")
             .addField('Whitelist Eseguita da:',  `*${message.author.toString()}*`, false)
             .addField('Motivo', `*${testo}*`, false)
-            .setFooter({ text: "Project Italy RP" })
+            .setFooter({text: "Italian Rome Full RP" })
             .setTimestamp()
 
             message.channel.send({ embeds: [embed] })
