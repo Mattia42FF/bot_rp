@@ -25,7 +25,6 @@ module.exports = {
             
             var embed = new Discord.MessageEmbed()
                 .setColor("RANDOM")
-                .setTitle("<:annunce:1007031335552036965> __Sondaggio!__ <:annunce:1007031335552036965>")
                 .setThumbnail("https://cdn.discordapp.com/icons/939800651599331348/178d4c12185851ba950a5aa875faa793.png?size=128")
                 .setDescription(`**${message.author.toString()} Ha Fatto Questo Sondaggio:\n${testo}**`)
                 .setFooter({text: "Italian Rome Full RP" })

@@ -15,7 +15,6 @@ module.exports = {
         var embed = new Discord.MessageEmbed()
             .setTitle("__**RP Offline!**__")
             .setColor("WHITE")
-            .setThumbnail("https://cdn.discordapp.com/icons/939800651599331348/178d4c12185851ba950a5aa875faa793.png?size=128")
             .setDescription(`**__L'RP è appena terminato__, vi ricordiamo di richiedere il vostro Stipendio Giornaliero.**`)
             .setFooter({text: "Italian Rome Full RP" })
             .setTimestamp()

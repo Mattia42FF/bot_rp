@@ -22,7 +22,6 @@ module.exports = {
         var embed = new Discord.MessageEmbed()
             .setTitle("__**RP Online!**__")
             .setColor("BLUE")
-            .setThumbnail("https://cdn.discordapp.com/icons/939800651599331348/178d4c12185851ba950a5aa875faa793.png?size=128")
             .setDescription(`**__L'RP è appena iniziato__, per entrare in Sessione unitevi da: *${testo}*. Buon RP!**`)
             .setFooter({text: "Italian Rome Full RP" })
             .setTimestamp()

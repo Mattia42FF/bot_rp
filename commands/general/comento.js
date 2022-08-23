@@ -21,7 +21,6 @@ module.exports = {
         var embed = new Discord.MessageEmbed()
             .setTitle("<:chat:1007029192489177258> __**Nuovo Commento!**__ <:chat:1007029192489177258> ")
             .setColor("RANDOM")
-            .setThumbnail("https://cdn.discordapp.com/icons/939800651599331348/178d4c12185851ba950a5aa875faa793.png?size=128")
             .setDescription(`**${message.author.toString()} Ha Appena Commentato al Post: ${testo}.**`)
             .setFooter({text: "Italian Rome Full RP" })
             .setTimestamp()
