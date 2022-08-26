@@ -96,6 +96,7 @@ client.on("interactionCreate", interaction => {
                 .setTitle("RP Commands")
                 .setColor("YELLOW")
                 .addField('`a!aiuto`', '**Per richiedere Assistenza allo Staff**')
+                .addField('`a!me`', '**Per fare un azione RP**')
                 .addField('`a!espu`', '**Per comunicare che un utente dovrà essere espulso dalla Sessione**')
                 .addField('`a!wl`', '**Per richiedere una Whitelist**')
                 .addField('`a!commento`', '**Per commentare un Post**')
