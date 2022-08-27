@@ -95,6 +95,7 @@ client.on("interactionCreate", interaction => {
             let embed = new Discord.MessageEmbed()
                 .setTitle("RP Commands")
                 .setColor("YELLOW")
+                .addField('`a!anon`', '**Per fare un azione in modo anonimo**')
                 .addField('`a!aiuto`', '**Per richiedere Assistenza allo Staff**')
                 .addField('`a!me`', '**Per fare un azione RP**')
                 .addField('`a!espu`', '**Per comunicare che un utente dovrà essere espulso dalla Sessione**')
