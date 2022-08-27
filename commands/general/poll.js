@@ -29,7 +29,7 @@ module.exports = {
                 .setFooter({text: "Italian Rome Full RP" })
                 .setTimestamp()
     
-            message.channel.send({embeds: [embed]})
+                message.channel.send({ content: "<@&1010114483890430012>", embeds: [embed] })
             .then(msg => {
                 msg.react("✅")
                 msg.react("❓")

@@ -19,6 +19,6 @@ module.exports = {
             .setFooter({text: "Italian Rome Full RP" })
             .setTimestamp()
 
-            message.channel.send({ embeds: [embed] })
+            message.channel.send({ content: "<@&1010092294722035803>", embeds: [embed] });
 
     }}} 
