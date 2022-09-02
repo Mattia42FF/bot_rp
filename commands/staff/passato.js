@@ -1,7 +1,7 @@
 const Discord = require("discord.js")
 
 module.exports = {
-    name: "passato",
+    name: "wla",
     description: "Per far passare l utente alla whitelist",
     execute(message, args) {
 

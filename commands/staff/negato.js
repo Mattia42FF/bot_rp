@@ -1,8 +1,8 @@
 const Discord = require("discord.js")
 
 module.exports = {
-    name: "negato",
-    description: "Rimandare la whitelist",
+    name: "wln",
+    description: "Per far passare l utente alla whitelist",
     execute(message, args) {
 
         {
@@ -20,10 +20,11 @@ module.exports = {
         }
 
         var embed = new Discord.MessageEmbed()
-            .setTitle("<:Rifiutato:1007556854580260894> __**Whitelist Negata**__ <:Rifiutato:1007556854580260894>")
+            .setTitle("<:Accettato:1007556821625622668> __**Whitelist Negata!**__ <:Accettato:1007556821625622668>")
             .setColor("RANDOM")
+            .addField('Nickname Utente:', `*${testo}*`, false)
+            .addField('Whitelist', '*Negata*', false)
             .addField('Whitelist Eseguita da:',  `*${message.author.toString()}*`, false)
-            .addField('Motivo', `*${testo}*`, false)
             .setFooter({text: "Italian Rome Full RP" })
             .setTimestamp()
 
