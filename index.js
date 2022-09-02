@@ -73,6 +73,8 @@ client.on("interactionCreate", interaction => {
                 .addField('`a!rpoff`', '**Per mandare Offline il Server**')
                 .addField('`a!wlon`', '**Aprire le Whitelist**')
                 .addField('`a!wloff`', '**Chiudere le Whitelist**')
+                .addField('`a!wla`', '**Per accettare una Whitelist**')
+                .addField('`a!wlon`', '**Per rifiutare una Whitelist**')
                 .setFooter({text: "Staff"})
                 .setTimestamp()
 

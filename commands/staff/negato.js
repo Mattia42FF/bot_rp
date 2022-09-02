@@ -20,7 +20,7 @@ module.exports = {
         }
 
         var embed = new Discord.MessageEmbed()
-            .setTitle("<:Accettato:1007556821625622668> __**Whitelist Negata!**__ <:Accettato:1007556821625622668>")
+            .setTitle("<:Rifiutato:1007556854580260894> __**Whitelist Negata!**__ <:Rifiutato:1007556854580260894>")
             .setColor("RANDOM")
             .addField('Nickname Utente:', `*${testo}*`, false)
             .addField('Whitelist', '*Negata*', false)
