@@ -19,7 +19,7 @@ module.exports = {
         message.delete()
 
         var embed = new Discord.MessageEmbed()
-            .setTitle("<:Attenzione:1007028886615375884> __**Espulsione Utente**__ <:Attenzione:1007028886615375884> ")
+            .setTitle("**<:banmember:1016318470297751563>｜__Espulsione Utente__**")
             .setColor("RED")
             .setDescription(`**Attenzione, siete pregati di espellere dalla sessione *${testo}*, grazie!**`)
             .setFooter({text: "Italian Rome Full RP" })

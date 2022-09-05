@@ -19,7 +19,7 @@ module.exports = {
         message.delete()
 
         var embed = new Discord.MessageEmbed()
-            .setTitle("__**Azione RP**__")
+            .setTitle("**🏃🏻‍♂️｜__Azione RP__**")
             .setColor("RANDOM")
             .setDescription(`**${message.author.toString()} Ha Appena Fatto un'Azione:\n${testo}**`)
             .setFooter({text: "Italian Rome Full RP" })

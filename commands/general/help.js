@@ -8,7 +8,7 @@ module.exports = {
         message.delete()
 
         let embed = new Discord.MessageEmbed()
-            .setTitle("<:Libro:1007028780419792917> __Aiuto Comandi__<:Libro:1007028780419792917> ")
+            .setTitle("**<:info:1016318125500813362>｜｜__Aiuto Comandi__**")
             .setColor("RANDOM")
             .setDescription(`**${message.author.toString()} Seleziona la pagina con il menu qua sotto, per vedere tutte le sezioni disponibili ⤵**`)
             .setFooter({text: "Italian Rome Full RP" })

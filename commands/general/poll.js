@@ -24,6 +24,7 @@ module.exports = {
             message.delete()
             
             var embed = new Discord.MessageEmbed()
+                .setTitle("**<:irfrp:1016317679730167808>｜__Sondaggio!__**")
                 .setColor("RANDOM")
                 .setDescription(`**${message.author.toString()} Ha Fatto Questo Sondaggio:\n${testo}**`)
                 .setFooter({text: "Italian Rome Full RP" })

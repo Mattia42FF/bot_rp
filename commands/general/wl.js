@@ -13,7 +13,7 @@ module.exports = {
         message.delete()
 
         var embed = new Discord.MessageEmbed()
-            .setTitle("<:req:1007029299016118342> __**Richiesta Whitelist**__ <:req:1007029299016118342>")
+            .setTitle("**<:Requisiti:1007029299016118342>｜__Richiesta Whitelist__**")
             .setColor("YELLOW")
             .setDescription(`**${message.author.toString()}, hai appena richiesta una Whitelist. Attendi un Whitelist Manager disponibile per effettuare il Colloquio, attenda...**`)
             .setFooter({text: "Italian Rome Full RP" })

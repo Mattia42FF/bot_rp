@@ -13,7 +13,7 @@ module.exports = {
         message.delete()
 
         var embed = new Discord.MessageEmbed()
-            .setTitle("<:help:1007030626043580418> __**Richiesta Supporto**__ <:help:1007030626043580418> ")
+            .setTitle("**<:mode:1016319084939456543>｜__Richiesta Supporto__**")
             .setColor("GREEN")
             .setDescription(`**Hey ${message.author.toString()}, hai appena richiesta supporto allo Staff del Server, __uno Staff arriverà qui a breve. Nel frattempo è pregato di scrivere il motivo della richiesta di Supporto__.**`)
             .setFooter({text: "Italian Rome Full RP" })

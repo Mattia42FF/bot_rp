@@ -19,7 +19,7 @@ module.exports = {
         message.delete()
 
         var embed = new Discord.MessageEmbed()
-            .setTitle("<:chat:1007029192489177258> __**Nuovo Commento!**__ <:chat:1007029192489177258> ")
+            .setTitle("**<:Chat:1007029192489177258>｜__Nuovo Commento__**")
             .setColor("RANDOM")
             .setDescription(`**${message.author.toString()} Ha Appena Commentato al Post: ${testo}.**`)
             .setFooter({text: "Italian Rome Full RP" })

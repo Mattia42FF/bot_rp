@@ -20,7 +20,7 @@ module.exports = {
         }
 
         var embed = new Discord.MessageEmbed()
-           .setTitle("<:Announcement:979766378124959774> __**Annuncio!**__ <:Announcement:979766378124959774>")
+           .setTitle("**<:Anuncio2:1010180412540211270>｜__Annuncio!__**")
            .setColor("RANDOM")
            .setDescription(`***${message.author.toString()} Ha Mandato Questo Annuncio:*** **\n${testo}**`)
            .setImage("https://cdn.discordapp.com/attachments/935843412056350730/939567617847492628/How-to-Announce-your-Engagement.png")

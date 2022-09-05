@@ -19,7 +19,7 @@ module.exports = {
         message.delete()
 
         var embed = new Discord.MessageEmbed()
-            .setTitle("__**Messaggio Anonimo**__")
+            .setTitle("**💀｜__Messaggio Anonimo__**")
             .setColor("RANDOM")
             .setDescription(`**${testo}**`)
             .setFooter({text: "Italian Rome Full RP" })
