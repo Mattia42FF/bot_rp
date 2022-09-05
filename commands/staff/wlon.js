@@ -14,7 +14,7 @@ module.exports = {
         message.delete()
 
         var embed = new Discord.MessageEmbed()
-            .setTitle("**__Whitelist Aperte!__**")
+            .setTitle("**<:Annuncio:1007028652917149848>｜__Whitelist Aperte!__**")
             .setColor("GREEN")
             .setDescription("**Avvisiamo che le Whitelist sono ora Aperte, affrettatevi!**")
             .setFooter({text: "Italian Rome Full RP" })
