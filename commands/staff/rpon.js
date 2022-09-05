@@ -20,7 +20,7 @@ module.exports = {
             }
 
         var embed = new Discord.MessageEmbed()
-            .setTitle("__**RP Online!**__")
+            .setTitle("**<:Accettato:1007556821625622668>｜__RP Online!__**")
             .setColor("BLUE")
             .setDescription(`**__L'RP è appena iniziato__, per entrare in Sessione unitevi da: *${testo}*. Buon RP!**`)
             .setFooter({text: "Italian Rome Full RP" })

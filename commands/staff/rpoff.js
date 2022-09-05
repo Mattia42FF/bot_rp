@@ -13,7 +13,7 @@ module.exports = {
         message.delete()
 
         var embed = new Discord.MessageEmbed()
-            .setTitle("__**RP Offline!**__")
+            .setTitle("**<:Rifiutato:1007556854580260894>｜__RP Offline!__**")
             .setColor("WHITE")
             .setDescription(`**__L'RP è appena terminato__, vi ricordiamo di richiedere il vostro Stipendio Giornaliero.**`)
             .setFooter({text: "Italian Rome Full RP" })

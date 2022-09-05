@@ -20,7 +20,7 @@ module.exports = {
         message.delete()
 
         var embed = new Discord.MessageEmbed()
-            .setTitle("__**Azione RP Annullata**__")
+            .setTitle("**<a:attenzions:1016316252345610390>｜__Azione RP Annullata__**")
             .setColor("RED")
             .setDescription(`**${message.author.toString()} Ha Annullato Questa/e Azione/i:** ***\n${testo}***`)
             .setFooter({text: "Italian Rome Full RP" })
