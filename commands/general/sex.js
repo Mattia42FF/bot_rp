@@ -19,7 +19,7 @@ module.exports = {
         message.delete()
 
         var embed = new Discord.MessageEmbed()
-            .setTitle("**❤｜__Azione Sex__**")
+            .setTitle("**💘｜__Azione Sex__**")
             .setColor("#f47fff")
             .setDescription(`**${message.author.toString()} Ha Appena Fatto un'Azione Sex:\n${testo}**`)
             .setFooter({text: "Italian Rome Full RP" })
