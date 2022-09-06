@@ -14,14 +14,16 @@ module.exports = {
             .setTimestamp()
 
         let button2 = new Discord.MessageButton()
-            .setLabel("Testo bottone")
+            .setLabel("Polizia di Stato")
             .setCustomId("idBottone2")
-            .setStyle("PRIMARY")
+            .setStyle("SUCCESS")
+            .setEmoji("👮🏻‍♂️")
 
         let button3 = new Discord.MessageButton()
-            .setLabel("Testo bottone")
+            .setLabel("Croce Rossa")
             .setCustomId("idBottone3")
-            .setStyle("PRIMARY")
+            .setStyle("DANGER")
+            .setEmoji("🚑")
 
         let row2 = new Discord.MessageActionRow() //Massimo 5 bottoni per riga
             .addComponents(button2)
