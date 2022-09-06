@@ -25,10 +25,24 @@ module.exports = {
             .setStyle("DANGER")
             .setEmoji("🚑")
 
-        let row2 = new Discord.MessageActionRow() //Massimo 5 bottoni per riga
+        let row2 = new Discord.MessageActionRow() 
             .addComponents(button2)
             .addComponents(button3)
 
-        message.channel.send({ embeds: [embed2], components: [row2] }) //Si possono inserire massimo 5 righe (Es: components: [row1, row2, row3])
+        message.channel.send({ embeds: [embed2], components: [row2] }) 
     }
 }
+
+client.on("interactionCreate", interaction => {
+    if (!interaction.isButton()) return
+
+    if (interaction.setCustomId == "idBottone2") {
+        let embed = new Discord.MessageEmbed()
+            .setTitle("__**Sto Inviando la Chiamata alla Centrale di Polizia...**__")
+            .setColor("BLUE")
+            .setDescription(`**${message.author.toString()} La chiamata è stata inviata correttamente alla Centrale, ora dovrà scrivere qui sotto la sua posizione tramite ID PS.**`)
+            .setFooter({text: "Italian Rome Full RP"})
+            .setTimestamp()
+
+            client.channels.cache.get("1010176136921235496").send("Prova!")
+    }
