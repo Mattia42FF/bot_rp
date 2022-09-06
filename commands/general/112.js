@@ -44,5 +44,5 @@ client.on("interactionCreate", interaction => {
             .setFooter({text: "Italian Rome Full RP"})
             .setTimestamp()
 
-            client.channels.cache.get("1010176136921235496").send("Prova!")
-    }
+            interaction.message.edit({ embeds: [embed], components: [] })
+    }})
