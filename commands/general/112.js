@@ -26,7 +26,7 @@ module.exports = {
             .setCustomId("police1")
 
         let row = new Discord.MessageActionRow()
-            .addComponents(police1)
+            .addComponents(button1)
 
         message.channel.send({ embeds: [embed], components: [row] })
 
