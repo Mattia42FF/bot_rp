@@ -22,5 +22,5 @@ module.exports = {
                 let row = new Discord.MessageActionRow()
                     .addComponents(button1)
 
-        message.channe.send({ embeds: [embed], components: [row] })
+        message.channel.send({ embeds: [embed], components: [row] })
     }}
