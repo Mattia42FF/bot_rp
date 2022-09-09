@@ -16,7 +16,7 @@ client.on('ready', () => {
 
     var server = client.guilds.cache.get("1009715679643045919")
     server.commands.create({
-        name: "ping",
+        name: "italia",
         description: "comando di test"
     })
 })
