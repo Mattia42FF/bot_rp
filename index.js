@@ -13,6 +13,12 @@ client.on('ready', () => {
     client.user.setActivity('Roma', { type: 'WATCHING' }); 
     
     client.user.setStatus('online')
+
+    var server = client.guilds.cache.get("1009715679643045919")
+    server.commands.create({
+        name: "ping",
+        description: "comando di test"
+    })
 })
 
 const fs = require("fs");
