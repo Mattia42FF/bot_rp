@@ -77,6 +77,8 @@ client.on("interactionCreate", interaction => {
                 .addField('`a!wloff`', '**Chiudere le Whitelist**')
                 .addField('`a!wla`', '**Per accettare una Whitelist**')
                 .addField('`a!wlon`', '**Per rifiutare una Whitelist**')
+                .addField('`a!approved + @utente`', '**Per informare che il bando per il Whitelist Manager è stato approvato**')
+                .addField('`a!denied + @utente`', '**Per informare che il bando per il Whitelist Manager è stato negato**')
                 .setFooter({text: "Staff"})
                 .setTimestamp()
 
