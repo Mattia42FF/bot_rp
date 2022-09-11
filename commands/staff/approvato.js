@@ -16,7 +16,6 @@ module.exports = {
                 .setTitle("**<a:appp:1018442742105395241>｜__Bando Approvato!__**")
                 .setColor("GREEN")
                 .setDescription(`*La informo che il suo Bando per diventare un Whitelister Manager è stato **approvato**, appena può contatti un Founder per stabilire un orario per il Colloquio Orale, complimenti!*`)
-                .addField('Bando Whitelister:', '**Approvato**', false)
                 .setFooter({ text: "Italian Rome Full RP"})
                 .setTimestamp()
 
