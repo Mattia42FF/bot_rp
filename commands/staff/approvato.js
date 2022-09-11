@@ -21,4 +21,7 @@ module.exports = {
                 .setTimestamp()
 
             user.send({ embeds: [embed] })
+            .then(msg => {
+                msg.react("✅")
+              })
         }}}
