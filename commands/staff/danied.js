@@ -14,7 +14,7 @@ module.exports = {
 
             var embed = new Discord.MessageEmbed()
                 .setTitle("**<a:sdd:1018445039812227103>｜__Bando Negato__**")
-                .setColor("GREEN")
+                .setColor("RED")
                 .setDescription(`*La informo che il suo Bando per diventare un Whitelister Manager è stato **negato**, potra ritentare a fare il bando fra 3 giorni!*`)
                 .setFooter({ text: "Italian Rome Full RP"})
                 .setTimestamp()
