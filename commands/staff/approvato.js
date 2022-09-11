@@ -15,13 +15,10 @@ module.exports = {
             var embed = new Discord.MessageEmbed()
                 .setTitle("**<a:appp:1018442742105395241>｜__Bando Approvato!__**")
                 .setColor("GREEN")
-                .setDescription(`*La informo che il suo Bando per diventare un __Whitelister Manager è stato *approvato__*, appena può contatti un Founder per stabilire un orario per il Colloquio Orale, complimenti!*`)
+                .setDescription(`*La informo che il suo Bando per diventare un __Whitelister Manager è stato __**approvato**__, appena può contatti un Founder per stabilire un orario per il Colloquio Orale, complimenti!*`)
                 .addField('Bando Whitelister:', '**Approvato**', false)
                 .setFooter({ text: "Italian Rome Full RP"})
                 .setTimestamp()
 
             user.send({ embeds: [embed] })
-            .then(msg => {
-                msg.react("✅")
-              })
         }}}
